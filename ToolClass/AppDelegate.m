@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LHBaseNavViewController.h"
+#import "OneViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    OneViewController *one = [[OneViewController alloc] init];
+    
+    LHBaseNavViewController *rootViewController =[[LHBaseNavViewController alloc] initWithRootViewController:one];
+    
+    self.window.rootViewController = rootViewController;
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

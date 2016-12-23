@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ToolClass copy 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ToolClass copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ToolClass.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +33,21 @@
 			<true/>
 		</dict>
 		<key>E94AAB3E1E03ED9D00F77472</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9A3CE251E0BB32A00455535</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9A3CE471E0BB43100455535</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9A3CE6A1E0BB55D00455535</key>
 		<dict>
 			<key>primary</key>
 			<true/>
